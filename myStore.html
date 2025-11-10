@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css" />
+    <title>E-commerce page </title>
+</head>
+
+<body>
+    <div id="backgroung-For-img">
+        <div id="header">
+            <span>welcome to our page</span>
+        </div>
+        <nav>
+            <div id="logo" class="stretch">myStore</div>
+            <a onclick="myAboutDialog.showModal()">About</a>
+            <a href="C:\Users\ADMIN\Ecommerce\.vscode\mySell.html"> Sell </a>
+            
+            <div id="search_border">
+                <img src="images/search-img.png" id="search-img"></img>
+                <input type="text" placeholder="Search here" id="search" />
+                <button id="search-btn" onclick="myFunction()">Enter</button>
+            </div>
+            <a id="Account" onclick="myDialog.showModal()">Account</a>
+        </nav>
+        <!--This Dialog box for user Account-->
+        <dialog id="myDialog">
+            <button class="X-btn" onclick="myDialog.close()">X</button>
+            <div id="myDialogDiv">
+                <h1>Sign In to Website</h1>
+                <input type="text" name="" id="" placeholder="Enter Email">
+                <input type="text" name="" id="" placeholder="Enter Password">
+                <button id="account_btn">LOG IN</button>
+                <h2>Continue with</h2>
+                <span id="google"><img class="accountImg" src="images/google.png"
+                        alt="">Google Account</span>
+                <span id="fb"><img class="accountImg" src="images/fb.jpg"
+                        alt="">Facebook</span>
+            </div>
+        </dialog>
+
+        <!--This Dialog box for Abpout us section-->
+        <dialog id="myAboutDialog">
+            <button class="X-btn" onclick="myAboutDialog.close()">X</button>
+            <div>
+                <h1>About us</h1>
+                <p>This is a dummy Ecommerce Website.This project is a Frontend project showing the ui of a ecommerce
+                    page.The frontend part is fully functional and responsive. This project is made from html,css, and
+                    javascript.</p>
+            </div>
+        </dialog>
+
+        <div id="slogan">
+            <h1>
+             just Order<br />what you Need!
+            </h1>
+        </div>
+    </div>
+    <main>
+        <h1 style="text-align: center;">We invite you to explore our range of products</h1>
+        <div id="gridView">
+            <div class="gridiv">
+                <div class="gridImg" id="grid-img-1"></div>
+                <p>400$</p>
+            </div>
+            <div class="gridiv">
+                <div class="gridImg" id="grid-img-2"></div>
+                <p>127$</p>
+            </div>
+            <div class="gridiv">
+                <div class="gridImg" id="grid-img-3"></div>
+                <p>200$</p>
+            </div>
+            <div class="gridiv">
+                <div class="gridImg" id="grid-img-4"></div>
+                <p>500$</p>
+            </div>
+            <div class="gridiv">
+                <div class="gridImg" id="grid-img-5"></div>
+                <p>100$</p>
+            </div>
+        </div>
+        <div id="Main_content">
+            <div class="content">
+                <h3>Red Dress</h3>
+                <div alt="no image" class="product_img" id="img-bg-1"></div>
+                <p>50 $</p>
+            </div>
+            <div class="content">
+                <h3>Pink soft</h3>
+                <div alt="no image" class="product_img" id="img-bg-2"></div>
+                <p>1500 $</p>
+            </div>
+            <div class="content">
+                <h3>dark heels</h3>
+                <div alt="no image" class="product_img" id="img-bg-3"></div>
+                <p>200 $</p>
+            </div>
+            <div class="content">
+                <h3>Royal golden</h3>
+                <div alt="no image" class="product_img" id="img-bg-4"></div>
+                <p>4000 $</p>
+            </div>
+            <div class="content">
+                <h3>Stylo white</h3>
+                <div alt="no image" class="product_img" id="img-bg-5"></div>
+                <p>700 $</p>
+            </div>
+            <div class="content">
+                <h3>Diama Ring</h3>
+                <div alt="no image" class="product_img" id="img-bg-6"></div>
+                <p>188 $</p>
+            </div>
+            <div class="content">
+                <h3>Kiddy top</h3>
+                <div alt="no image" class="product_img" id="img-bg-7"></div>
+                <p>200 $</p>
+            </div>
+            <div class="content">
+                <h3>Dor Kameez</h3>
+                <div alt="no image" class="product_img" id="img-bg-8"></div>
+                <p>500 $</p>
+            </div>
+        </div>
+        <div id="before-footer">
+            <h3>You can follow us</h3>
+            <div id="info_img">
+                <div>
+                    <img src="images/fb.jpg" alt="" class="last-Img">
+                    <h5>facebook</h5>
+                </div>
+                <div>
+                    <img src="images/instagram.jpg" alt="" class="last-Img">
+                    <h5>Instagram</h5>
+                </div>
+                <div>
+                    <img src="images/twiter.png" alt="" class="last-Img">
+                    <h5>twiter</h5>
+                </div>
+            </div>
+        </div>
+        <div id="footer">ui/Ux designe project .. <br />just a dummy frontend Ui ,Lorem text amet<br />consectetur adipisicing Mollitia, ullam numquam
+            <br />similique omnis dignissimos <br /> enim et aliquid sed elit.  <br />libero  itaque voluptate ipsum hic, asperiores
+           <br />is saba trying to code<br />&copy; copyright.2025 June
+        </div>
+    </main>
+    <script src="JAVASCRIPT.js"></script>
+</body>
+
+</html>
