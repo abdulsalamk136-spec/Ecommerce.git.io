@@ -417,6 +417,9 @@ h3 {
         width:97%;
         font-size:small;
     }
+    #slogan{
+        font-size:36px;
+    }
 
     #backgroung-For-img {
         background-size: cover;
