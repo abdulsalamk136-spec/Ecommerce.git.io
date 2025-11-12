@@ -412,7 +412,7 @@ h3 {
     font-family: cursive;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
 
     #backgroung-For-img {
         background-size: cover;
@@ -420,7 +420,7 @@ h3 {
     }
 
     #myDialog {
-        width: 80%;
+        width: 94%;
         height: max-content;
         border-radius: 10px;
         border: 2px solid palevioletred;
