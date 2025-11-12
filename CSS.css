@@ -412,7 +412,11 @@ h3 {
     font-family: cursive;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 767px) {
+    nav{
+        width:97%;
+        font-size:small;
+    }
 
     #backgroung-For-img {
         background-size: cover;
