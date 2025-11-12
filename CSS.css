@@ -462,6 +462,7 @@ h3 {
     a {
         font-size: smaller;
         margin: 3px;
+        padding-left:2px;
     }
 
     .gridImg {
