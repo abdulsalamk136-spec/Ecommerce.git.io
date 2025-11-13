@@ -1,2 +1,3 @@
 # Ecommerce.git.io
-This is a dummy E-commerce Frontend Project
+"This is a Simple front-end UI/UX design project for a dummy e-commerce website. The project was built using HTML5, CSS3, and vanilla JavaScript. It features a fully functional front-end, with all interactive elements powered by JavaScript, while the design and layout were created with HTML and CSS. Not a back-end website but a little backend code is written for sell page in this project."
+This is a client-side e-commerce platform developed to showcase a feature-rich and responsive user interface. The project includes core e-commerce pages such as a product gallery,and a dedicated "sell your product" page. A modal-based sign-in and sign-up experience is integrated to demonstrate user flow without a back-end dependency. The application also features a static "about" page, all designed to deliver a modern, intuitive, and engaging user experience.
